@@ -1,0 +1,221 @@
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+ 
+    
+      }
+   
+ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+p   {
+      font-size: 1em;
+      margin-bottom: 1.8em;
+     }
+
+a {
+  color:  black;
+  text-decoration: none;
+  }
+
+
+hr {
+	margin-top: 60px;
+	background: #C0C0C0;
+	width: 80%;
+
+}
+
+img {
+	max-width: 100%;
+   }
+
+header{
+		align-self: center;
+		margin-bottom: 60px;
+		width: 80%;
+	}
+
+
+
+nav{
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 40%;
+			
+	}
+
+
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+
+.gallery p {
+	text-align: center;
+	color: gray;
+	
+}
+
+.gallery{
+	 align-self: center;
+}
+
+.banner {
+	    align-self: center;
+        flex-direction: row;
+		justify-content: center;
+		display: inline-block;
+	    background: whitesmoke;
+        }
+        
+.banner1{
+
+        align-items: center;
+        justify-content: space-around;
+        align-self: center;
+       
+ }
+ 
+ #portfolio{
+
+ 	 text-align: center;
+ 	 margin-top: 15px;
+ 	 margin-bottom: 15px;
+
+ }
+ #contact{
+ 	
+ 	 text-align: center;
+ 	 margin-top: 15px;
+ 	 margin-bottom: 15px;
+ }
+
+ .banner1 p{
+ 	text-align: center;
+ }
+
+
+
+.logo{
+		 
+		margin-bottom: 2em;
+	}
+
+.tagline {
+	   
+		float: left;	
+		text-align: center;
+		font-weight: normal;
+		font-size: 12px;
+		margin-bottom: 20px;
+	    
+    }
+
+
+
+
+.name {
+	font-size: 1.35em;
+	margin: 0;
+      }
+   
+.footer-name a {
+	 margin-left: 40px;
+     float: left;
+     color: black;
+     font-size: .95em;
+          }  
+      
+ul.main-nav li {
+  padding:.5em;
+  margin:.5em;
+  
+           }
+
+.main-nav {
+	margin-top: 5px;
+          }
+
+.name a,
+.main-nav a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+            }
+   
+.main-nav a {
+	font-size: .95em;
+	color:  #3a3a3a;
+	text-transform: uppercase;
+
+            }
+      
+ .main-nav-footer a {
+ 	display: none;
+   }
+ 
+ 
+ .main-footer b {
+
+ 	    color: black;
+ 	    font-size: .95em;
+        float: right;
+        margin-right: 20px;
+       
+           }
+ .info{
+ 	text-align: center;
+	
+	padding: 10px 15px;
+ }
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background: url('../images/backo.jpg') no-repeat center center fixed;
+
+            }
+
+
+.container {
+	 
+       width: 100%;
+       border-radius: 5px;
+       box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+          } 
+
+
+.row{
+	 width: 100%;
+}
+     
+
+
