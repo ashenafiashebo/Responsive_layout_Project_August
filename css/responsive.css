@@ -16,9 +16,20 @@ body {
 .row
 
         {
-			width: 80%;
+			max-width: 100%;
 			
 	    }
+
+nav{
+
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 15%;
+    text-align: right;
+    width: 40%;
+      
+  }
 
 .main-header, 
 .main-nav,
@@ -44,19 +55,18 @@ body {
 
 		flex-direction: row;
 		justify-content: space-around;
-		margin-top: 50px;
-        margin-bottom: 50px;
-        background: whitesmoke;
+		
+    
+    background: whitesmoke;
 
         }
         
 .banner1{
 
-	    flex-direction: row;
+	  flex-direction: row;
 		justify-content: space-around;
-	   
 		margin-top: 105px;
-        margin-bottom: 100px
+    margin-bottom: 100px
 
 }
 
@@ -76,14 +86,14 @@ body {
 
  .main-nav-footer {
  	float: right;
-    margin-left: 175px;
+  margin-left: 175px;
                 }
 
  .footer-name a{
 
 
  	  margin-left: 80px;
-      margin-right: 60px;
+    margin-right: 240px;
 
  }
 
@@ -102,13 +112,14 @@ body {
         flex-direction: row;
         justify-content: space-around;
         align-self: center;
-        background: whitesmoke;
+        background: #FFF;
+
        
 
             }
 
  #portfolio{
- 	 width: 80%;
+ 	 width: 100%;
  	 margin-top: 45px;
  	 margin-bottom: 45px;
  	 text-align: center;
@@ -122,13 +133,11 @@ body {
  }
 
 .logo{
+
 		float: right;
 		max-width: 45%;
-		margin-top: 60px;
 		padding-bottom: 10px;
-		margin-right: 1em;
-	   
-	 			
+		margin-right: 1em; 			
 	}
 
 
@@ -137,7 +146,7 @@ body {
 	color: black;
 	float: left;
 	max-width: 45%;
-	margin-top: 50px;
+
 	text-align: justify;
 	margin-left: 1em;
 	padding-bottom: 10px;
@@ -182,18 +191,22 @@ body{
 
 
         {
-	width: 80%;
+	max-width: 100%;
 	max-width: 1024px;
 	}
 
+nav{
+
+    margin-right: .80em;
+      
+  }
 .main-header {
-       position: fixed;
+       
        flex-direction: row;
        justify-content: space-between;
-      
-       margin-left: 127px;
+     
        background: whitesmoke;
-       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
            }
 
 
@@ -221,15 +234,15 @@ body{
 
 		flex-direction: row;
 		justify-content: space-around;
-		margin-top: 50px;
-        margin-bottom: 50px;
-        background: whitesmoke;
+	
+   
+    background: whitesmoke;
 
         }
 
 .footer-name a {
-         margin-left: 28px;
-         margin-right: 280px;
+         margin-left: 10px;
+         margin-right: 520px;
              } 
 
  ul.main-nav li 
@@ -242,15 +255,15 @@ body{
 .container {
 	flex-direction: row;
 	flex-wrap: wrap;
-    background: whitesmoke;
+    background: #FFF;
     padding: 0;
+ 
            }
 
 
 .logo{
 		float: right;
 		max-width: 45%;
-		margin-top: 80px;
 		padding-bottom: 10px;
 		margin-right: 1em;
 	   
@@ -262,7 +275,6 @@ body{
 	color: black;
 	float: left;
 	max-width: 45%;
-	margin-top: 80px;
 	text-align: justify;
 	margin-left: 1em;
 
@@ -275,7 +287,7 @@ body{
 
  .main-nav-footer {
  	float: right;
-    margin-left: 320px;
+  margin-left: 320px;
              }
 
      

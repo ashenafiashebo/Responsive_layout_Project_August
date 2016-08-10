@@ -47,21 +47,13 @@ img {
 
 header{
 		align-self: center;
-		margin-bottom: 60px;
-		width: 80%;
+		
+		width: 100%;
 	}
 
 
 
-nav{
-		background: none;
-		float: right;
-		font-size: 1.125em;
-		margin-right: 5%;
-		text-align: right;
-		width: 40%;
-			
-	}
+
 
 
 
@@ -204,7 +196,7 @@ ul.main-nav li {
 
 .container {
 	 
-       width: 100%;
+      
        border-radius: 5px;
        box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
        flex-direction: row;
@@ -213,9 +205,6 @@ ul.main-nav li {
           } 
 
 
-.row{
-	 width: 100%;
-}
-     
+ 
 
 
